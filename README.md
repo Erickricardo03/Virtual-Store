@@ -1,59 +1,78 @@
-# VirtualStoreFrontend
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/your-github-user/virtual-store-banner.png" alt="Virtual Store Banner" width="800"/>
+</p>
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.0.
+#  Virtual Store
 
-## Development server
+Um e-commerce moderno desenvolvido com **Angular**, com foco em performance, experiência do usuário e funcionalidades completas de loja virtual.
 
-To start a local development server, run:
+---
+
+## Funcionalidades
+
+###  Catálogo de Produtos
+- Filtros e busca de produtos
+- Página de detalhes com galeria de imagens
+- Produtos relacionados ("Você também pode gostar")
+
+ ### Interação do Usuário
+- Wishlist (lista de desejos)
+- Comparador de produtos
+- Avaliações e comentários
+
+###  Checkout e Pagamento
+- Carrinho de compras completo
+- Sistema de checkout com cálculo de frete por CEP
+- Cupons de desconto
+- Histórico de endereços salvos e múltiplos endereços de entrega
+
+###  Painel Administrativo
+- Gestão de pedidos e clientes
+- Dashboard com gráficos de vendas
+- Relatórios de produtos mais vendidos e estatísticas de receita
+
+###  Perfil do Cliente
+- Página de perfil do usuário
+- Histórico de compras detalhado
+- Sistema de notificações e chat de suporte
+
+###  Melhorias Visuais
+- Galeria de imagens com zoom
+- Animações elegantes
+- Temas de cores personalizáveis
+
+---
+
+##  Tecnologias Utilizadas
+
+- **Angular 18+**
+- **TypeScript**
+- **SCSS / HTML5**
+- **NgRx** (Estado)
+- **Chart.js / ApexCharts** (Dashboards)
+- **Bootstrap / TailwindCSS**
+- **API REST** (a ser integrada com backend)
+
+---
+
+##  Como Executar Localmente
 
 ```bash
+# Clone o repositório
+git clone https://github.com/Erickricardo03/Virtual-Store.git
+
+# Entre na pasta do projeto
+cd Virtual-Store
+
+# Instale dependências
+npm install
+
+# Rode o servidor local
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+# Abra no navegador
+http://localhost:4200/
 
-## Code scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+ 
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
