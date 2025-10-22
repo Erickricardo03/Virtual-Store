@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/your-github-user/virtual-store-banner.png" alt="Virtual Store Banner" width="800"/>
+  <img src="https://raw.githubusercontent.com/Erickricardo03/Virtual-Store/main/assets/banner.png" alt="Virtual Store Banner" width="800"/>
 </p>
 
 #  Virtual Store
