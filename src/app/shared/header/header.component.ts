@@ -1,0 +1,5 @@
+exports: [
+  HeaderComponent,
+  FooterComponent,
+  ButtonComponent
+]
