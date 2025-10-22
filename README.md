@@ -53,24 +53,6 @@ Um e-commerce moderno desenvolvido com **Angular**, com foco em performance, exp
 
 ---
 
-##  Como Executar Localmente
-
-```bash
-# Clone o repositório
-git clone https://github.com/Erickricardo03/Virtual-Store.git
-
-# Entre na pasta do projeto
-cd Virtual-Store
-
-# Instale dependências
-npm install
-
-# Rode o servidor local
-ng serve
-
-# Abra no navegador
-http://localhost:4200/
-
 
  
 
