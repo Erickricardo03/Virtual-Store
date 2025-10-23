@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-profile',
+  standalone:true,
   imports: [],
-  templateUrl: './profile.html',
-  styleUrl: './profile.scss'
+  templateUrl: './profile.component.html',
+  styleUrls: ['./profile.component.scss']
 })
-export class Profile {
+export class ProfileComponent {
 
 }

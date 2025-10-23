@@ -1,1 +1,16 @@
-<p>addresses works!</p>
+<section class="addresses">
+  <h2>Meus Endereços</h2>
+
+  <div class="address-card" *ngFor="let address of addresses">
+    <p><strong>Nome:</strong> {{ address.name }}</p>
+    <p><strong>Rua:</strong> {{ address.street }}</p>
+    <p><strong>Cidade:</strong> {{ address.city }}</p>
+    <p><strong>Estado:</strong> {{ address.state }}</p>
+    <p><strong>CEP:</strong> {{ address.zip }}</p>
+    <p><strong>Telefone:</strong> {{ address.phone }}</p>
+    <button (click)="editAddress(address)">Editar</button>
+    <button (click)="deleteAddress(address)">Excluir</button>
+  </div>
+
+  <button (click)="addNewAddress()">Adicionar Novo Endereço</button>
+</section>

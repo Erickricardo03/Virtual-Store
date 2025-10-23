@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-reviews',
+  standalone:true,
   imports: [],
-  templateUrl: './reviews.html',
-  styleUrl: './reviews.scss'
+  templateUrl: './reviews.component..html',
+  styleUrls: ['./reviews.component.scss']
 })
-export class Reviews {
+export class ReviewsComponent {
 
 }

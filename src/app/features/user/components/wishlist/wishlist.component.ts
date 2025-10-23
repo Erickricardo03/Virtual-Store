@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-wishlist',
+  standalone:true,
   imports: [],
-  templateUrl: './wishlist.html',
-  styleUrl: './wishlist.scss'
+  templateUrl: './wishlist.component.html',
+  styleUrls: ['./wishlist.component.scss']
 })
-export class Wishlist {
+export class WishlistComponent {
 
 }

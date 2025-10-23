@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-cart-page',
+  standalone:true,
   imports: [],
-  templateUrl: './cart-page.html',
-  styleUrl: './cart-page.scss'
+  templateUrl: './cart-page.component.html',
+  styleUrls: ['./cart-page.component.scss']
 })
-export class CartPage {
+export class CartPageComponent {
 
 }

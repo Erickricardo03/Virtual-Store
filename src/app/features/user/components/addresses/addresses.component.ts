@@ -1,11 +1,21 @@
-import { Component } from '@angular/core';
+export class AddressesComponent {
+  addresses = [
+    {
+      name: 'Casa',
+      street: 'Rua Exemplo, 123',
+      city: 'São Paulo',
+      state: 'SP',
+      zip: '01234-567',
+      phone: '(11) 99999-9999'
+    },
+  ];
 
-@Component({
-  selector: 'app-addresses',
-  imports: [],
-  templateUrl: './addresses.html',
-  styleUrl: './addresses.scss'
-})
-export class Addresses {
+  addNewAddress() {
+  }
 
+  editAddress(address: any) {
+  }
+
+  deleteAddress(address: any) {
+  }
 }
